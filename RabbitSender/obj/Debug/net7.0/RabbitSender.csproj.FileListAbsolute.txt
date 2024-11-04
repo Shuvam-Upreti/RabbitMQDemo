@@ -15,3 +15,4 @@ D:\Projects\.Net\RabbitMQDemo\RabbitSender\obj\Debug\net7.0\refint\RabbitSender.
 D:\Projects\.Net\RabbitMQDemo\RabbitSender\obj\Debug\net7.0\RabbitSender.pdb
 D:\Projects\.Net\RabbitMQDemo\RabbitSender\obj\Debug\net7.0\RabbitSender.genruntimeconfig.cache
 D:\Projects\.Net\RabbitMQDemo\RabbitSender\obj\Debug\net7.0\ref\RabbitSender.dll
+D:\Projects\.Net\RabbitMQDemo\RabbitSender\obj\Debug\net7.0\RabbitSender.sourcelink.json

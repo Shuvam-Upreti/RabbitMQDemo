@@ -15,3 +15,4 @@ D:\Projects\.Net\RabbitMQDemo\RabbitReceiver1\obj\Debug\net7.0\refint\RabbitRece
 D:\Projects\.Net\RabbitMQDemo\RabbitReceiver1\obj\Debug\net7.0\RabbitReceiver1.pdb
 D:\Projects\.Net\RabbitMQDemo\RabbitReceiver1\obj\Debug\net7.0\RabbitReceiver1.genruntimeconfig.cache
 D:\Projects\.Net\RabbitMQDemo\RabbitReceiver1\obj\Debug\net7.0\ref\RabbitReceiver1.dll
+D:\Projects\.Net\RabbitMQDemo\RabbitReceiver1\obj\Debug\net7.0\RabbitReceiver1.sourcelink.json

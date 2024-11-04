@@ -11,13 +11,23 @@ IConnection conn = factory.CreateConnection();
 
 IModel channel = conn.CreateModel();
 
-string exchangeName = "DemoExchange";
-string routingKey = "dmeo-routing-key";
-string queueName = "DemoQueue";
+//direct exchange
+//string exchangeName = "DemoExchange";
+//string routingKey = "dmeo-routing-key";
+//string queueName = "DemoQueue";
 
-channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
-channel.QueueDeclare(queueName, false, false, false, null);
-channel.QueueBind(queueName, exchangeName, routingKey, null);
+//channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
+//channel.QueueDeclare(queueName, false, false, false, null);
+//channel.QueueBind(queueName, exchangeName, routingKey, null);
+
+
+//fanout exchange
+string exchangeName = "FanOutExchangeDemo";
+string queueName = "FanOutExchangeDemo";
+
+channel.ExchangeDeclare(exchangeName, ExchangeType.Fanout,durable:true);
+channel.QueueDeclare(queueName, true, false, false, null);
+channel.QueueBind(queueName, exchangeName,string.Empty);
 
 channel.BasicQos(0, 1, false);
 
